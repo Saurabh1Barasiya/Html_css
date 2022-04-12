@@ -1,0 +1,27 @@
+.box-1{
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    margin: 100px auto;
+    transition: transform 1s ease-in-out;
+    transform-origin: top left;
+}
+
+.box-1:hover{
+    /* transform: rotate(45deg); */
+    /* transform: rotate(-45deg); */
+
+    transform: scaleX(2);  
+    /* width 2 times incresse ho jayegi */
+
+    transform: scaleY(2);
+    /* height 2 times incresse ho jayegi */
+
+    transform: scale(2);
+    /* width and height 2 times incresse ho jayegi */
+
+    transform: skew(45deg);
+    transform: skew(-45deg);
+
+    transform: translate(100px,100px);
+}
