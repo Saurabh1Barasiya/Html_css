@@ -1,0 +1,36 @@
+.box-1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 8, 0);
+    border-radius: 50%;
+    position: relative;
+    animation-name: change-direction;
+    /* animation-delay: 2s; */
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes change-direction{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0px;
+        left: 300px;
+    }
+    50%{
+        top: 300px;
+        left: 300px;
+    }
+    75%{
+        top: 300px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
