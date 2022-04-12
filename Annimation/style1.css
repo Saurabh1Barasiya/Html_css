@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    /* background-color: aqua; */
+    color: rgb(230, 0, 0);
+    animation-name: change-text-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes change-text-color {
+    from { 
+        color: rgb(145, 124, 236);
+    }
+    to{
+       color: rgb(83, 153, 120);
+    }
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: change-color;
+    animation-duration:5s; 
+    /* animation-iteration-count: 3; */
+    animation-fill-mode: forwards;  /* forwards, backwards, both, none */   
+
+}
+
+@keyframes change-color {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: aqua;
+    }    
+}
+
+
+.box-1{
+    margin-top: 50px;
+    height: 25px;
+    width: 25px;
+    background-color: aqua;
+    animation-duration: 2s; 
+    /* annimation delay means kitni der se chalna start hoga. */
+    animation-name: change-width;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes change-width {
+    from{
+        width: 25px;
+    }
+    to{
+        width: 300px;
+    }
+}
