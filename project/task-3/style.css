@@ -1,0 +1,21 @@
+.ha-banner{
+    /* border:2px solid rgb(247, 255, 4); */
+    height:14rem;
+    box-sizing: border-box;
+}
+
+.img-box{
+    /* border:2px solid red; */
+    height: 100%;
+}
+.text-box{
+    /* border:2px solid rgb(2, 10, 252); */
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.img-box img{
+    height:100%;
+    width:100%
+}
