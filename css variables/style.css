@@ -1,0 +1,52 @@
+:root{
+    --bodycolor:rgb(224, 243, 189);
+    --bottomcolor:#406992;
+    --defsize:4vw;
+    --defpadd:1vw;
+    --text-color:red;
+    --box-color:rgb(171, 153, 230);
+    --def-margin:5vw;
+    --container-background:white;
+}
+
+body { 
+    background: var(--bodycolor);
+}
+
+h2 { 
+    border-bottom: 2px solid var(--bottomcolor,red);
+    font-size: var(--defsize);
+    padding: var(--defpadd);
+    color:var(--text-color);
+}
+
+.box{
+    height: 50px;
+    width: 100px;
+    background: var(--box-color);
+    margin-top: var(--def-margin);
+    border-bottom: 2px solid var(--text-color);
+    border-left: 2px solid var(--text-color);
+}
+
+.container {
+  height: 100px;
+  width: 200px;
+  background: var(--container-background);
+}
+
+.container p{
+    /* local variable. */
+    --def-margin:0.9vw;  
+    padding-top: var(--def-margin);
+}
+
+
+
+button {
+  background-color: var(--container-background);
+  color:var(--text-color);
+  border: 2px solid var(--bottomcolor);
+  padding: var(--defpadd);
+  font-size: var(--defsize);
+}
